@@ -64,9 +64,9 @@ CSS TABLE OF CONTENTS
 	});
 
 	// projects change background
-	$(".project-area .swiper-slide").on("mouseenter click", function () {
+	$(".project__slider .swiper-slide").on("mouseenter click", function () {
 		var tab_id = $(this).attr("data-tab");
-		$(".project-area .swiper-slide").removeClass("active");
+		$(".project__slider .swiper-slide").removeClass("active");
 		$(this).addClass("active");
 
 		$(".project__image .tab-img ").removeClass("active");
@@ -77,11 +77,11 @@ CSS TABLE OF CONTENTS
 		}
 	});
 
-	$(".project-area .swiper-button-next").on("click", function () {
-		$(".project-area .swiper-slide-next").click();
+	$(".project__arry-next").on("click", function () {
+		$(".project__arry-next").click();
 	});
-	$(".project-area .swiper-button-prev").on("click", function () {
-		$(".project-area .swiper-slide-prev").click();
+	$(".project__arry-prev").on("click", function () {
+		$(".project__arry-prev").click();
 	});
 	// end projects change background
 })(jQuery);
