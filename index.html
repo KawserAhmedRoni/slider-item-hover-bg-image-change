@@ -26,113 +26,6 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-        .tc-projects-style7 {
-            position: relative;
-        }
-
-        .tc-projects-style7 .swiper-button-next,
-        .tc-projects-style7 .swiper-button-prev {
-            width: 50px;
-            height: 50px;
-            border: 1px solid #fff;
-        }
-
-        .tc-projects-style7 .swiper-button-next::after,
-        .tc-projects-style7 .swiper-button-prev::after {
-            font-size: 16px;
-            color: #fff;
-        }
-
-        .tc-projects-style7 .swiper-button-next:hover,
-        .tc-projects-style7 .swiper-button-prev:hover {
-            background-color: #fff;
-        }
-
-        .tc-projects-style7 .swiper-button-next:hover::after,
-        .tc-projects-style7 .swiper-button-prev:hover::after {
-            color: #000;
-        }
-
-        .tc-projects-style7 .swiper-button-next {
-            right: 4vw;
-        }
-
-        .tc-projects-style7 .swiper-button-prev {
-            left: 4vw;
-        }
-
-        .tc-projects-style7 .project-card {
-            display: block;
-            position: relative;
-            height: 600px;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-align: end;
-            -ms-flex-align: end;
-            align-items: flex-end;
-            -webkit-border-end: 1px solid #fff;
-            border-inline-end: 1px solid #fff;
-        }
-
-        .tc-projects-style7 .project-card:hover .info {
-            background-color: #fff;
-            color: #000;
-        }
-
-        .tc-projects-style7 .project-card .info {
-            padding: 40px;
-            width: 100%;
-            color: #fff;
-            -webkit-transition: all 0.3s ease;
-            -o-transition: all 0.3s ease;
-            transition: all 0.3s ease;
-        }
-
-        .tc-projects-style7 .projects-content {
-            position: relative;
-            overflow: hidden;
-        }
-
-        .tc-projects-style7 .projects-content .glry-img {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-        .tc-projects-style7 .projects-content .glry-img .tab-img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            -o-object-fit: cover;
-            object-fit: cover;
-            -webkit-transform: scale(1.1, 1.1);
-            -ms-transform: scale(1.1, 1.1);
-            transform: scale(1.1, 1.1);
-            opacity: 0;
-            -webkit-transition: all .7s;
-            -o-transition: all .7s;
-            transition: all .7s;
-        }
-
-        .tc-projects-style7 .projects-content .glry-img .tab-img.current {
-            -webkit-transform: scale(1);
-            -ms-transform: scale(1);
-            transform: scale(1);
-            opacity: 1;
-        }
-
-        @media screen and (max-width: 991px) {
-            .tc-projects-style7 .project-card {
-                height: 400px;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -144,102 +37,100 @@
     <main>
 
         <!--  Start projects  -->
-        <section class="tc-projects-style7">
-            <div class="container">
-                <div class="title mb-80">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <h2 class="fsz-60 text-capitalize fw-400 js-splittext-lines"> Featured Projects </h2>
-                        </div>
-                        <div class="col-lg-4 text-lg-end mt-5 mt-lg-0 js-splittext-lines">
-                            <a href="#"
-                                class="butn border rounded-pill border-green1 hover-bg-green1 text-capitalize color-green1">
-                                <span> See All Projects </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        <section class="project-area">
+            <div class="section-header pb-50">
+                <h2>Hellow world</h2>
             </div>
-            <div class="projects-content">
-                <div class="projects-slider">
+            <div class="project__wrp">
+                <div class="swiper project__slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" data-tab="tab-1">
-                            <a href="#" class="project-card">
-                                <div class="info">
-                                    <h6 class="fsz-13 text-uppercase mb-3"> 2022 - portland, or </h6>
-                                    <h3 class="fsz-28 text-capitalize fw-400"> Backyard with Pool </h3>
+                            <a href="#0" class="project__item">
+                                <div class="project__content">
+                                    <span>01</span>
+                                    <h4>We’ll Visit You <br> at Home</h4>
+                                    <p>We specialize in serving industries like healthcare, Computer Design.</p>
                                 </div>
                             </a>
                         </div>
                         <div class="swiper-slide" data-tab="tab-2">
-                            <a href="#" class="project-card">
-                                <div class="info">
-                                    <h6 class="fsz-13 text-uppercase mb-3"> 2022 - Boston, MA </h6>
-                                    <h3 class="fsz-28 text-capitalize fw-400"> Ecohaus Residence </h3>
+                            <a href="#0" class="project__item">
+                                <div class="project__content">
+                                    <span>02</span>
+                                    <h4>Initial computer <br> Designs</h4>
+                                    <p>We specialize in serving industries like healthcare, Computer Design.</p>
                                 </div>
                             </a>
                         </div>
                         <div class="swiper-slide" data-tab="tab-3">
-                            <a href="#" class="project-card">
-                                <div class="info">
-                                    <h6 class="fsz-13 text-uppercase mb-3"> 2023 - Boston, MA </h6>
-                                    <h3 class="fsz-28 text-capitalize fw-400"> Aikira Ecological Area </h3>
+                            <a href="#0" class="project__item">
+                                <div class="project__content">
+                                    <span>03</span>
+                                    <h4>Start the in-depth <br> design process</h4>
+                                    <p>We specialize in serving industries like healthcare, Computer Design.</p>
                                 </div>
                             </a>
                         </div>
                         <div class="swiper-slide" data-tab="tab-4">
-                            <a href="#" class="project-card">
-                                <div class="info">
-                                    <h6 class="fsz-13 text-uppercase mb-3"> 2023 - Seattle, WA </h6>
-                                    <h3 class="fsz-28 text-capitalize fw-400"> Private Villa Backyard </h3>
+                            <a href="#0" class="project__item">
+                                <div class="project__content">
+                                    <span>04</span>
+                                    <h4>Assembly <br> Home</h4>
+                                    <p>We specialize in serving industries like healthcare, Computer Design.</p>
                                 </div>
                             </a>
                         </div>
                         <div class="swiper-slide" data-tab="tab-5">
-                            <a href="#" class="project-card">
-                                <div class="info">
-                                    <h6 class="fsz-13 text-uppercase mb-3"> 2022 - Boston, MA </h6>
-                                    <h3 class="fsz-28 text-capitalize fw-400"> Rustic Backyard </h3>
+                            <a href="#0" class="project__item">
+                                <div class="project__content">
+                                    <span>05</span>
+                                    <h4>We’ll Visit You <br> at Home</h4>
+                                    <p>We specialize in serving industries like healthcare, Computer Design.</p>
                                 </div>
                             </a>
                         </div>
                         <div class="swiper-slide" data-tab="tab-6">
-                            <a href="#" class="project-card">
-                                <div class="info">
-                                    <h6 class="fsz-13 text-uppercase mb-3"> 2021 - Boston, MA </h6>
-                                    <h3 class="fsz-28 text-capitalize fw-400"> Frontyard Exterior </h3>
+                            <a href="#0" class="project__item">
+                                <div class="project__content">
+                                    <span>06</span>
+                                    <h4>Initial computer <br> Designs</h4>
+                                    <p>We specialize in serving industries like healthcare, Computer Design.</p>
                                 </div>
                             </a>
                         </div>
                         <div class="swiper-slide" data-tab="tab-7">
-                            <a href="#" class="project-card">
-                                <div class="info">
-                                    <h6 class="fsz-13 text-uppercase mb-3"> 2021 - San Francisco, CA </h6>
-                                    <h3 class="fsz-28 text-capitalize fw-400"> Minimal Backyard </h3>
+                            <a href="#0" class="project__item">
+                                <div class="project__content">
+                                    <span>07</span>
+                                    <h4>Start the in-depth <br> design process</h4>
+                                    <p>We specialize in serving industries like healthcare, Computer Design.</p>
                                 </div>
                             </a>
                         </div>
                         <div class="swiper-slide" data-tab="tab-8">
-                            <a href="#" class="project-card">
-                                <div class="info">
-                                    <h6 class="fsz-13 text-uppercase mb-3"> 2023 - Seattle, WA </h6>
-                                    <h3 class="fsz-28 text-capitalize fw-400"> Japan Park </h3>
+                            <a href="#0" class="project__item">
+                                <div class="project__content">
+                                    <span>08</span>
+                                    <h4>Assembly Home</h4>
+                                    <p>We specialize in serving industries like healthcare, Computer Design.</p>
                                 </div>
                             </a>
                         </div>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
                 </div>
-                <div class="glry-img">
-                    <img id="tab-1" src="assets/img/projects/1.jpg" alt="" class="tab-img current">
-                    <img id="tab-2" src="assets/img/projects/2.jpg" alt="" class="tab-img">
-                    <img id="tab-3" src="assets/img/projects/3.jpg" alt="" class="tab-img">
-                    <img id="tab-4" src="assets/img/projects/4.jpg" alt="" class="tab-img">
-                    <img id="tab-5" src="assets/img/projects/5.jpg" alt="" class="tab-img">
-                    <img id="tab-6" src="assets/img/projects/6.jpg" alt="" class="tab-img">
-                    <img id="tab-7" src="assets/img/projects/7.jpg" alt="" class="tab-img">
-                    <img id="tab-8" src="assets/img/projects/8.jpg" alt="" class="tab-img">
+                <div class="project__slider-arrys">
+                    <button class="project__arry-prev"><i class="fa-regular fa-arrow-left"></i></button>
+                    <button class="project__arry-next"><i class="fa-regular fa-arrow-right"></i></button>
+                </div>
+                <div class="project__image">
+                    <img id="tab-1" class="tab-img active" src="assets/img/projects/1.jpg" alt="image">
+                    <img id="tab-2" class="tab-img" src="assets/img/projects/2.jpg" alt="image">
+                    <img id="tab-3" class="tab-img" src="assets/img/projects/3.jpg" alt="image">
+                    <img id="tab-4" class="tab-img" src="assets/img/projects/4.jpg" alt="image">
+                    <img id="tab-5" class="tab-img" src="assets/img/projects/5.jpg" alt="image">
+                    <img id="tab-6" class="tab-img" src="assets/img/projects/6.jpg" alt="image">
+                    <img id="tab-7" class="tab-img" src="assets/img/projects/7.jpg" alt="image">
+                    <img id="tab-8" class="tab-img" src="assets/img/projects/8.jpg" alt="image">
                 </div>
             </div>
         </section>
